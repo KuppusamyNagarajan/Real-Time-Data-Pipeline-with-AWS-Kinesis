@@ -1,0 +1,15 @@
+{
+    "fileLocations": [
+        {
+            "URIPrefixes": [
+                "s3://kinesis-240225/processedData/"
+            ]
+        }
+    ],
+    "globalUploadSettings": {
+        "format": "JSON",
+        "delimiter": ",",
+        "textqualifier": "\"",
+        "containsHeader": "false"
+    }
+}
